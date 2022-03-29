@@ -1,54 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/style.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.google.com/specimen/Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
-
-  <title>Frontend Mentor | Order summary card</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Daniel Hotze">
+  <meta name="description" content="This is the personal Website of Daniel Hotze, an aspiring Programmer and Web Developer.">
+  <title>Daniel Hotze</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-  <!--Div with card-class-->
-  <div class="card">
-    <img class="card-img" src="images/illustration-hero.svg" alt="Girl with headphones listening and dancing to music">
-
-    <div class="card-content">
-      <h1 class="card-header">Order Summary</h1>
-      <p class="card-text">You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!</p>
-
-      <div class="payment-summary">
-        <img class="music-img" src="images/icon-music.svg" alt="image of a music note">
-
-        <div class="annual">
-          <h2 class="annual-plan">Annual Plan</h2>
-          <p class="plan-price">$59.99/year</p>
-        </div>
-        <a class="link" href="#">Change</a>
+  <main>
+    <!--************************ Top-Container *************************-->
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <div class="title-text">
+        <h1>I'm Daniel.</h1>
+        <h2>a <span class="pro">pro</span>grammer</h2>
       </div>
-
-      <button class="payment-btn" type="button" name="button">Proceed to Payment</button>
-      <button class="cancel-btn" type="button" name="button">Cancel Order</button>
-
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img class="mountain" src="images/mountain.png" alt="mountain-img">
     </div>
 
+    <!--************************ Middle-Container *************************-->
+    <div class="middle-container">
+      <div class="profile">
+        <img class="Kenobi-img" src="images/Obi-Wan.png" alt="General Kenobi">
+        <h2>Hello there.</h2>
+        <p class="intro">I am a business and computer science student at KIT in Karlsruhe (Germany). </br>
+          I am a Java and Web Developer. I love cooking and doing sport.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="computer-img" src="images/computer.png" alt="computer image">
+
+          <h3>Design & Development</h3>
+          <p>I started learning to code when I was 16 years old because I was fascinated by
+            video games and graphic programs and I wanted to know how these things are possible.</br>
+            Now I am studying computer science and business economics to gain knowledge on these topics.</p>
+
+        </div>
+        <div class="skill-row">
+          <img class="chillies-img" src="images/chillies.png" alt="chillies image">
+          <h3>Cooking</h3>
+          <p>I always loved food and even dreamed of working as a chef in the future before I found my passion
+            for programming and design.</br>
+            I make food from all over the world as a way of experiencing new cultures and different tastes while not
+            beeing able to travel much.</br>
+            My favourite cuisine is italien.</p>
+        </div>
+      </div>
+      <hr>
+
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you need help with a project or want to chat.</h3>
+      <p class="contact-message">You want to hire me for your project or have similiar interests and want to talk?
+        Great! We can make an appointment have a lot of fun working together!</p>
+      <a class="btn" href="mailto:danhotra@gmail.com">CONTACT ME</a>
+    </div>
   </div>
+  </main>
 
-
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Daniel Hotze</a>.
-  </div>
+  <!--************************ Footer *************************-->
+  <footer>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.w3.org/Provider/Style/dummy.html">Website</a>
+      <p class="copyright">© 2021 Daniel Hotze.</p>
+    </div>
+  </footer>
 </body>
 
 </html>
